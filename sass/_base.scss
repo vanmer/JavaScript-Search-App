@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
 
 $search-bar-border: #e6e6e6;
 $stats-color: #70757a;
@@ -23,29 +23,29 @@ $font-stack: "Raleway", Arial, sans-serif;
     @extend %flex;
     flex-direction: column;
     justify-content: flex-start;
-}
+  }
 
-@mixin flexCenter {
+  @mixin flexCenter {
     @extend %flex;
     justify-content: center;
-}
+  }
 
-@mixin mq($size) {
+  @mixin mq($size) {
     @media only screen and (min-width: $size) {
-        @content;
+      @content;
     }
-}
+  }
     
-* {
+  * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
+  }
 
 html, body {
     background-color: $background-color;
     color: $font-color;
-    width: 100vh;
+    width: 100vw;
     min-height: 100vh;
     font-family: $font-stack;
     font-size: 22px;
