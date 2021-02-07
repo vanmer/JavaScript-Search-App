@@ -1,22 +1,24 @@
 .results {
     @include flexColumn;
     padding: 0.5rem 1rem;
-    width: 90vw;
+    width: 95vw;
     @include mq(768px) {
         width: 75vw;
     }
     @include mq(1025px) {
-        width: 55vw;
+        width: 62vw;
     }
 
     .statsBar {
         width: 100%;
+        margin-top: 0.75rem;
 
         .stats {
             color: $stats-color;
             font-size: 0.75rem;
             @include mq(768px) {
                 font-size: 1rem;
+                margin-top: 1.25rem;
             }
         }
     }
@@ -43,7 +45,7 @@
                 text-overflow: ellipsis;
                 padding: 3px 2px;
                 @include mq(768px) {
-                    font-size: 1.5rem;
+                    font-size: 1.25rem;
                     line-height: 1.75rem;
                     margin-bottom: 0.5rem;
                 }

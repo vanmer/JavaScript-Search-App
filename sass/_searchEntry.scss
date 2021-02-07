@@ -9,7 +9,8 @@
         margin-bottom: 0.75rem;
 
         @include mq(768px) {
-            font-size: 3rem;
+            font-size: 2.25rem;
+            padding: 1rem;
             letter-spacing: -2px;
         }
     }
@@ -23,7 +24,7 @@
 
         @include mq(768px) {
             width: 80vw;
-            padding: 1.25rem 1.5rem;
+            padding: 1rem 1.5rem;
         }
 
         @include mq(1025px) {
